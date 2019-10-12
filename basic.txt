@@ -1,0 +1,41 @@
+﻿git config --global user.name 
+git config --global user.email 
+git log
+git status
+git init
+git add 
+git add .
+git commit
+git commit -m ' '
+gitk
+git clean -n
+git clean -fdx
+git clone {адрес репозитория} //клонирует репозиторий
+git push // обновляет репозиторий
+git pull //???
+
+
+head||index||filesystem
+git reset --soft {hash} //перезаписывает head
+git reset {hash} //перезаписывает индекс - потом можно закоммитить
+git reset --hard {hash} //перезаписывает и хедер и индекс и директорию: все незакоммиченные изменения восстановить невозможно
+git reset {filename} //отмена индексации файла: файл в индексе перезаписывается из последнего коммита(head)
+git reset {hash} {filename} //перезаписывает индекс определенного файла из определенного коммита
+
+git checkout {hash} //переместиться к определенному хешу
+git checkout master //вернуться в основную ветку
+git checkout -b {new_branch_name} //создание новой ветки
+git branch // посмотреть все ветки
+git checkout master //вернуться в основную ветку
+git checkout {tag_name} //переместиться к метке
+git tag //показать все метки
+git tag {tag_name} // установить новую метку
+
+
+dir 
+cd {dirname}
+mkdir {dirname}
+touch {filename}
+echo ' ' > {filename}
+cat {filename}
+rm {filename}
