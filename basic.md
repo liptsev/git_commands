@@ -1,4 +1,4 @@
-﻿#BASH  
+﻿# BASH  
 dir  
 cd {dirname}  
 mkdir {dirname}  
@@ -9,7 +9,7 @@ rm {filename}
 chmod ??? {filename}  
 chown ?????? {filename}  
   
-#GIT BASIC  
+# GIT BASIC  
 git config --global user.name  
 git config --global user.email  
 git init  
@@ -29,7 +29,7 @@ git push
 git push -f  
 git fetch  
   
-#GIT RESET  
+# GIT RESET  
 head||index||filesystem  
 git reset --soft {hash}  
 git reset {hash}  
@@ -37,7 +37,7 @@ git reset --hard {hash}
 git reset {filename}  
 git reset {hash} {filename}  
 
-#GIT CHECKOUT  
+# GIT CHECKOUT  
 git checkout {hash}  
 git checkout master  
 git checkout -b {new_branch_name}  
