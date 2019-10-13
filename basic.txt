@@ -26,6 +26,7 @@ git clone {http_link}
 git remote add origin {http_link} 
 git remote -v 
 git push 
+git push -f
 git fetch 
 
 #GIT RESET
