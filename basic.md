@@ -44,7 +44,6 @@ git reset {hash} {filename}
 git checkout {hash}  
 git checkout master  
 git checkout -b {new_branch_name}  
-git branch  
 git tag  
 git tag {tag_name}  
 git tag -d {tag_name}  
@@ -53,3 +52,9 @@ git checkout {filename}
 
 git revert head/{hash}  
 git commit --amend  
+git branch  
+git branch {branch_name}  
+git branch -d {branch_name}  
+git checkout {branch_name}  
+git merge {branch_name}  
+git mergetool  

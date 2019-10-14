@@ -44,12 +44,17 @@ git reset {hash} {filename} //перезаписывает индекс опре
 git checkout {hash} //переместиться к определенному хешу  
 git checkout master //вернуться в основную ветку  
 git checkout -b {new_branch_name} //создание новой ветки  
-git branch // посмотреть все ветки  
 git tag //показать все метки  
 git tag {tag_name} // установить новую метку  
 git tag -d {tag_name} //удалить таг  
 git checkout {tag_name} //переместиться к метке  
 git checkout {filename} //перезаписать измененный файл версией из индекса  
 
-git revert head/{hash}// отмена текущего/указанного коммита (информация об отмене отсается в логе)
+git revert head/{hash}// отмена текущего/указанного коммита (информация об отмене отсается в логе)  
 git commit --amend  //изменение текущего коммита(того на который ссылается HEAD)  
+git branch // посмотреть все ветки  
+git branch {branch_name} //создание новой ветки  
+git branch -d {branch_name} //удаление ветки  
+git checkout {branch_name} //переключение между ветками  
+git merge {branch_name} //слияние с веткой  
+git mergetool //gui средство разрешения конфликтов при слиянии
