@@ -52,7 +52,7 @@ git checkout {filename}
   
 git revert head/{hash}  
 git commit --amend  
-git branch  
+git branch (--merged, --no-merged)  
 git branch {branch_name}  
 git branch -d {branch_name}  
 git checkout {branch_name}  

@@ -52,7 +52,7 @@ git checkout {filename} //перезаписать измененный файл
   
 git revert head/{hash}// отмена текущего/указанного коммита (информация об отмене отсается в логе)  
 git commit --amend  //изменение текущего коммита(того на который ссылается HEAD)  
-git branch // посмотреть все ветки  
+git branch (--merged, --no-merged) // посмотреть все ветки  
 git branch {branch_name} //создание новой ветки  
 git branch -d {branch_name} //удаление ветки  
 git checkout {branch_name} //переключение между ветками  
