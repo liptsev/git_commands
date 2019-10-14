@@ -28,7 +28,7 @@ git remote add origin {http_link}
 git remote -v  
 git push  
 git push -f  
-git fetch  
+git pull  
 git rm  
 git mv  
   
@@ -39,7 +39,7 @@ git reset {hash}
 git reset --hard {hash}  
 git reset {filename}  
 git reset {hash} {filename}  
-
+  
 # GIT CHECKOUT  
 git checkout {hash}  
 git checkout master  
@@ -49,7 +49,7 @@ git tag {tag_name}
 git tag -d {tag_name}  
 git checkout {tag_name}  
 git checkout {filename}  
-
+  
 git revert head/{hash}  
 git commit --amend  
 git branch  
