@@ -29,6 +29,7 @@ git remote -v
 git push  
 git push -f  
 git pull  
+git config receive.denyCurrentBranch ignore
 git rm  
 git mv  
   
